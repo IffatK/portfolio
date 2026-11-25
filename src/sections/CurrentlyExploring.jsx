@@ -1,3 +1,0 @@
-import { ArrowUpRight } from 'lucide-react';
-import SectionHeading from '../components/SectionHeading.jsx';
-export default function CurrentlyExploring(){return <section className="exploring section-pad"><div className="exploring-left"><SectionHeading number="06">On my mind lately</SectionHeading><h2>Currently<br/><em>exploring.</em></h2><p>There’s always another layer to learn. Here’s where I’m spending curious hours these days.</p></div><div className="explore-notes">{['Advanced React.js','JavaScript problem-solving','Data Structures & Algorithms','Frontend performance','UI interactions & animation','WebGL & creative web'].map((v,i)=><div key={v}><span>0{i+1}</span><b>{v}</b><ArrowUpRight size={16}/></div>)}</div></section>}
