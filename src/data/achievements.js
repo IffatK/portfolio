@@ -1,0 +1,1 @@
+export const achievements = ['PRAVAAH ERP — Best Project Award','PRAVAAH ERP — Punctuality Award','EliteCode — Finalist','Adobe University Hackathon','Smart India Hackathon — Participant','Hack the Rand — Second Round','Code Clash'];
